@@ -27,7 +27,7 @@ This project is a Property Management System built using React and TypeScript. I
 ## Technologies Used
 - **Frontend**: React, TypeScript, Axios, React Router
 - **Backend**: Node.js, Express (assumed based on API endpoints)
-- **Database**: (Specify your database here, e.g., PostgreSQL, MongoDB)
+- **Database**: MySql
 
 ## Project Structure
 - **`App.tsx`**: The main entry point of the application.
