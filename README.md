@@ -29,19 +29,18 @@ This project is a Property Management System built using React and TypeScript. I
 - **Database**: (Specify your database here, e.g., PostgreSQL, MongoDB)
 
 ## Project Structure
-src/
-├── App.tsx # Main application component
-├── pages/ # Contains all page components
-│ ├── Home.tsx # Home page component
-│ ├── Properties.tsx # Properties listing page
-│ ├── PropertyDetails.tsx # Detailed view of a property
-│ └── PropertyManagement.tsx # Property management page
-├── components/ # Reusable components
-│ └── layout/ # Layout components (e.g., Navbar)
-├── assets/ # Static assets (images, styles)
-└── types/ # TypeScript type definitions
+- **`App.tsx`**: The main entry point of the application.
+- **`pages/`**: Contains all the page components for the application.
+  - `Home.tsx`: The home page of the application.
+  - `Properties.tsx`: Displays a list of properties.
+  - `PropertyDetails.tsx`: Shows detailed information about a specific property.
+  - `PropertyManagement.tsx`: Allows users to manage properties (e.g., add, edit, delete).
+- **`components/`**: Contains reusable components used across the application.
+  - `layout/`: Includes layout-related components like the `Navbar`.
+- **`assets/`**: Stores static assets such as images and styles.
+- **`types/`**: Contains TypeScript type definitions for the project.
 
-
+---
 
 
 ## Getting Started
